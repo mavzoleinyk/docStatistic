@@ -1,0 +1,175 @@
+object Form1: TForm1
+  Left = 2710
+  Height = 193
+  Top = 519
+  Width = 600
+  Caption = 'Статистика'
+  ClientHeight = 193
+  ClientWidth = 600
+  LCLVersion = '2.2.2.0'
+  object Edit1: TEdit
+    Left = 265
+    Height = 23
+    Top = 75
+    Width = 220
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 0
+    TextHint = 'Путь к файлу...'
+  end
+  object Label1: TLabel
+    Left = 240
+    Height = 25
+    Top = 5
+    Width = 115
+    Caption = 'Статистика'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -21
+    Font.Name = 'Roboto'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 500
+    Height = 25
+    Top = 73
+    Width = 75
+    Caption = 'Обзор'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    Left = 25
+    Height = 21
+    Top = 50
+    Width = 42
+    Caption = 'Слов:'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 25
+    Height = 21
+    Top = 81
+    Width = 83
+    Caption = 'Символов:'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 25
+    Height = 21
+    Top = 115
+    Width = 82
+    Caption = 'Пробелов:'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 25
+    Height = 21
+    Top = 150
+    Width = 50
+    Caption = 'Строк:'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object words: TLabel
+    Left = 145
+    Height = 21
+    Top = 50
+    Width = 12
+    Caption = '...'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object symbols: TLabel
+    Left = 145
+    Height = 21
+    Top = 81
+    Width = 12
+    Caption = '...'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object spaces: TLabel
+    Left = 145
+    Height = 21
+    Top = 115
+    Width = 12
+    Caption = '...'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lines: TLabel
+    Left = 145
+    Height = 21
+    Top = 150
+    Width = 12
+    Caption = '...'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button2: TButton
+    Left = 260
+    Height = 25
+    Top = 145
+    Width = 315
+    Caption = 'Статистика'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Open1: TOpenDialog
+    Left = 455
+    Top = 5
+  end
+end
